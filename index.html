@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://latex.now.sh/style.css" defer>
+
+    <title>README.tex</title>
+</head>
+<body>
+    <p class="author">skk-tj <br> <span id="current-date"></span> </p>
+    
+    <div class="abstract">
+        <h2>Abstract</h2>
+        <p>This is the README page of <code>skk-tj</code>. </p>
+    </div>
+
+    <h1>
+        Contact detail
+    </h1>
+
+    <ul>
+        <li>Email: <a href="mailto:holocal@skk-tj.live">holocal@skk-tj.live</a> (for questions regarding the iOS application: <a href="https://apps.apple.com/us/app/holocal/id1615435098">HoloCal</a>). </li>
+        <li>Email: <a href="mailto:v@skk-tj.live">v@skk-tj.live</a> (for everything else). </li>
+    </ul>
+</body>
+
+<script>
+    const date = new Date();
+    const elem = document.getElementById('current-date');
+    const dateString = date.toLocaleString([], {dateStyle: 'medium'});
+    elem.textContent = dateString;
+</script>
+
+</html>
